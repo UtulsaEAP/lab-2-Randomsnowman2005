@@ -2,10 +2,10 @@ def right_arrow():
     base_char = input()
     head_char = input()
 
+    Base = base_char + base_char +base_char+base_char+base_char+base_char
     row1 = '      ' + head_char
-    Base = base_char + base_char +base_char+base_char+base_char
-    row2 = Base+ head_char + head_char
-    row3 = Base + head_char+head_char+head_char
+    row2 = Base  + head_char + head_char
+    row3 = Base + head_char + head_char + head_char
     row4 = Base + head_char
 
     print(row1)
