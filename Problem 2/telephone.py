@@ -4,6 +4,6 @@ def telephone():
     cut = phone_number % 10000000
     mid = cut // 10000
     end = cut % 10000
-    print( '(',Start,')', mid,'-',end)
+    print (f'({Start:.0f}) {mid:.0f}-{end:.0f}')
 if __name__ == "__main__":
     telephone()
